@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	width: 100%;
+	top: 50vh;
+	left: 50vw;
+	position: absolute;
+}
+
+div {
+	opacity: 0.8;
+}
+
+.circle {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: inline-block;
+
+}
+
+#one {
+	background-color: #EF798A;
+}
+
+#one:hover {
+	transition-duration: 3s;
+	transform: translate(200px, 50px);
+}
+
+#two {
+	background-color: #f7efa8;
+}
+
+#two:hover {
+	transition-duration: 3s;
+	transform: translate(200px, 500px);
+}
+
+#three {
+	background-color: #7D82B8;
+}
+
+#three:hover {
+	transition-duration: 3s;
+	transform: translate(0px, 500px);
+}
+
+#four {
+	background-color: #613F75;
+}
+
+#four:hover {
+	transition-duration: 3s;
+	transform: translate(-200px, 0px);
+}
+
+#five {
+	background-color: #E5C3D1;
+}
+
+#five:hover {
+	transition-duration: 5s;
+	transform: translate(-1025px, 50px);
+	transition-timing-function: ease-in-out
+}
+
+.rect {
+	width: 1000px;
+	height: 50px;
+}
+
+#six {
+	background-color: #152c66;
+}
+
+#six:hover {
+	background-color: #a8f7a9;
+	opacity: 0.5;
+	transition-duration: 5s;
+	transform: rotate(180deg);
+}
+
+#maybe {
+	color: pink;
+	font-family: 'Raleway Dots', cursive;
+	font-size: 300px;
+	margin: 10px;
+}
+
+#maybe:hover {
+	transform: scale(0.5, 0.5);
+}
